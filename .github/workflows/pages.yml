@@ -1,0 +1,10 @@
+name: Pages
+on:
+  push:
+    branches: ["main"]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+# build 1 @ 2026-06-28T14:15:32.649Z
