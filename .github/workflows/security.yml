@@ -1,0 +1,9 @@
+name: Security
+on: [push]
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "security scan"
+# build 4 @ 2026-06-28T14:15:38.415Z
